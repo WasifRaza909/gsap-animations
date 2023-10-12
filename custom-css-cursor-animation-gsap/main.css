@@ -1,0 +1,159 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style-type: none;
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+	cursor: none;
+}
+
+.header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	padding: 0 60px;
+}
+
+.header-row {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 40px 0;
+}
+
+.logo a {
+	display: block;
+	font-size: 28px;
+	color: #c850c0;
+	font-weight: 600;
+}
+
+.logo img {
+	height: 50px;
+	display: block;
+}
+
+.nav ul {
+	display: flex;
+	align-items: center;
+}
+
+.nav li + li {
+	margin-left: 16px;
+}
+
+.nav li a {
+	font-size: 18px;
+	font-weight: 600;
+	padding: 10px 40px;
+	border: 2px solid #c850c0;
+	color: #c850c0;
+	border-radius: 2em;
+	display: block;
+}
+
+.hero-text {
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #000;
+}
+
+.hero-text h1 {
+	font-size: 170px;
+	line-height: 1;
+	font-weight: 700;
+	background-color: #fad03f;
+	background-color: #4158d0;
+	background-image: linear-gradient(
+		43deg,
+		#4158d0 0%,
+		#c850c0 46%,
+		#ffcc70 100%
+	);
+
+	-webkit-background-clip: text;
+	background-clip: text;
+	color: transparent;
+}
+
+.hero-text h2 {
+	font-size: 84px;
+	color: #fff;
+	display: inline-flex;
+}
+
+.footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	padding: 0 60px;
+	color: #c850c0;
+}
+
+.footer-wrapper {
+	padding: 40px 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.footer-nav {
+	display: flex;
+	align-items: center;
+}
+
+.footer-nav li + li {
+	margin-left: 16px;
+}
+
+.footer-nav li a {
+	color: #c850c0;
+	font-size: 18px;
+}
+
+.footer p {
+	color: #f4b47f;
+}
+
+.cursor {
+	position: fixed;
+	width: 40px;
+	height: 40px;
+	margin-left: -20px;
+	margin-top: -20px;
+	border-radius: 50%;
+	border: 2px solid #c850c0;
+	transition: transform 0.1s ease;
+	transform-origin: center center;
+	pointer-events: none;
+	z-index: 1000;
+}
+
+.grow {
+	transform: scale(7);
+	background: #fff;
+	mix-blend-mode: difference;
+	border: none;
+}
+
+.grow-small {
+	transform: scale(2.5);
+	background: #fff;
+	mix-blend-mode: difference;
+	border: none;
+}
