@@ -1,0 +1,27 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  background: black;
+}
+
+svg.demo {
+  border: 1px solid #444;
+  width: 80%;
+  background: #151515;
+}
+
+.ball {
+  fill: #571135;
+}
+
+.wire {
+  fill: none;
+}
+
+.wire,
+.ball {
+  stroke-width: 8px;
+  stroke: #f39;
+  stroke-linecap: round;
+}
