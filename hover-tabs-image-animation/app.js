@@ -31,8 +31,8 @@ function hoverTab() {
 
           if (deltaX < 770 && deltaX > -770) {
             eventPicContainer.style.transform = `translateX(${
-              -deltaX * 0.4
-            }px) translateY(${-deltaY * 0.4}px)`;
+              -deltaX * 0.3
+            }px) translateY(${-deltaY * 0.6}px)`;
           }
         });
         tab.addEventListener("mouseleave", (e) => {
