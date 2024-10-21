@@ -10,6 +10,14 @@ html {
   overflow-x: hidden;
 }
 
+.instruc-text{
+  font-size: 1rem;letter-spacing: 0.5px;
+  font-weight: bold;
+  top: 5%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
 .tabs-section {
   display: flex;
   flex-direction: column;
@@ -49,9 +57,9 @@ html {
 .tabs-container .tab-img {
   position: absolute;
   opacity: 0;
-  left: 55%;
-  width: 300px;
-  height: 300px;
+  left: 50%;
+  width: 18.75rem;
+  height: 18.75rem;
   border-radius: 200%;
   z-index: 100;
   overflow: hidden;

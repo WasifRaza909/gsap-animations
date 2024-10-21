@@ -29,10 +29,10 @@ function hoverTab() {
           const deltaY = firstMousePosition.y - e.clientY;
           const deltaX = firstMousePosition.x - e.clientX;
 
-          if (deltaX < 600 && deltaX > -600) {
+          if (deltaX < 770 && deltaX > -770) {
             eventPicContainer.style.transform = `translateX(${
-              -deltaX * 0.3
-            }px) translateY(${-deltaY}px)`;
+              -deltaX * 0.4
+            }px) translateY(${-deltaY * 0.4}px)`;
           }
         });
         tab.addEventListener("mouseleave", (e) => {
